@@ -1,4 +1,3 @@
-// Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Select DOM elements
     const addButton = document.getElementById('add-task-btn');
