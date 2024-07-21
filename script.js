@@ -20,13 +20,17 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create a remove button
         const removeButton = document.createElement('button');
         removeButton.textContent = 'Remove';
+
+        // Apply styles to the remove button
         removeButton.style.cursor = 'pointer';
         removeButton.style.backgroundColor = '#ff6347';
         removeButton.style.color = 'white';
         removeButton.style.border = 'none';
         removeButton.style.borderRadius = '4px';
         removeButton.style.padding = '5px 10px';
+        removeButton.style.marginLeft = '10px';
 
+        // Apply hover effect to the remove button
         removeButton.onmouseover = function() {
             removeButton.style.backgroundColor = '#d9534f';
         };
